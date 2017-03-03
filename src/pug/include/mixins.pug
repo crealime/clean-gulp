@@ -1,0 +1,7 @@
+mixin navigation (className, item, active)
+	nav(class=className)
+		ul(class=className+"__list")
+			- var items = item
+			each fref, title in items
+				li(class=className + "__item")
+					a(href=fref, class=className+"__link" + ((title == active) ? " active" : ""))= title
