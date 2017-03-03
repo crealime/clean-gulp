@@ -37,8 +37,7 @@ gulp.task('sass', function() {
 gulp.task('scripts', function() {
 	return gulp.src([
 		'src/libs/jquery/dist/jquery.min.js',
-		'src/libs/modernizer/modernizr.js',
-		'src/libs/magnific-popup/dist/jquery.magnific-popup.min.js'
+		'src/libs/modernizer/modernizr.js'
 	])
 	.pipe(concat('libs.min.js'))
 	.pipe(uglify())
