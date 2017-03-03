@@ -3,6 +3,6 @@
   "dependencies": {
     "jquery": "^3.1.1",
     "modernizer": "^2.8.2",
-    "bootstrap": "v4.0.0-alpha.6",
+    "bootstrap": "v4.0.0-alpha.6"
   }
 }
